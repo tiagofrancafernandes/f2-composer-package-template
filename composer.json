@@ -1,0 +1,34 @@
+{
+    "name": "tiagof2/f2-PACKAGE-NAME",
+    "description": "A PACKAGE DESCRIPTION",
+    "license": "MIT",
+    "keywords": [
+        "tiagof2",
+        "f2-packages",
+        "f2-PACKAGE-NAME"
+    ],
+    "homepage": "https://tiagofranca.com",
+    "authors": [
+        {
+            "name": "Tiago França",
+            "email": "dev+composer@tiagofranca.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TiagoF2\\PACKAGE-NAME\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "tiagof2": {
+            "modules": []
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
